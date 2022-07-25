@@ -9,7 +9,7 @@ The solution uses a combination of two models: MDLinear and GTCN, see the techni
 The trained models used for the final score are included in this repository.
 
 ## Training
-The training data can be downloaded on the competition website: https://aistudio.baidu.com/aistudio/competition/detail/152/0/datasets
+The training data can be downloaded on the competition website: https://aistudio.baidu.com/aistudio/competition/detail/152/0/datasets.  
 Put this file into the data folder before starting to train the models.
 
 All parameter settings are adjusted in the [`methods/prepare.py`](methods/prepare.py) file. The default settings were used for the competition results.  
