@@ -9,7 +9,7 @@ from methods.xtgn.data_process.data_process import TestData as TestDataWP
 from methods.xtgn.model.engine import trainer
 
 
-def forecast_dlinear(settings):
+def forecast_mdlinear(settings):
     predictions = []
     for horizon in settings['horizons']:
         settings['pred_len'] = horizon
@@ -25,7 +25,7 @@ def forecast_dlinear(settings):
     return predictions
 
 
-def forecast_mvstm(args):
+def forecast_xtgn(args):
     model_dir = os.path.join(args['checkpoints'], args['model_name'])
     model_path = os.path.join(model_dir, 'checkpoint.pth')
 
@@ -70,11 +70,11 @@ def forecast_mvstm(args):
 
 
 def forecast(settings):
-    dlinear_settings = {**settings['mdlinear'], **settings}
-    dlinear_preds = forecast_dlinear(dlinear_settings)
+    mdlinear_settings = {**settings['mdlinear'], **settings}
+    mdlinear_preds = forecast_mdlinear(mdlinear_settings)
 
-    mvstm_settings = {**settings['xtgn'], **settings}
-    mvstm_preds = forecast_mvstm(mvstm_settings)
+    xtgn_settings = {**settings['xtgn'], **settings}
+    xtgn_preds = forecast_xtgn(xtgn_settings)
 
-    predictions = (dlinear_preds + mvstm_preds) / 2
+    predictions = (mdlinear_preds + xtgn_preds) / 2
     return predictions
