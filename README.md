@@ -5,7 +5,7 @@ Team name: didadida_hualahuala
 Placement: 7th (of 2490 teams)  
 Final score (3rd phase): -45.18139
 
-The solution uses a combination of two models: MDLinear and XGTN, see the technical report for detials[to be added].
+The solution uses a combination of two models: MDLinear and XGTN, see the technical report for the details [to be added].
 The trained models used for the final score are included in this repository.
 
 ## Training
