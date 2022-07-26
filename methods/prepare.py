@@ -51,7 +51,7 @@ def prep_env():
             "batch_size": 32,
             "max_epoch": 100,
             "milestone": [5, 20, 40, 70],
-            "learning_rate": 0.001,
+            "learning_rate": 0.003,
             "dropout_rate": 0.2,
             "weight_decay": 0.0001,
             "print_freq": 5,
