@@ -2,7 +2,7 @@
 
 This is our solution to the KDD Cup 2022 spatial dynamic wind power forecast challenge.  
 Team name: didadida_hualahuala  
-Placement: 7th (of 2490 teams)  
+Placement: 6th (of 2490 teams)  
 Final score (3rd phase): -45.18139
 
 The solution uses a combination of two models: MDLinear and XGTN, see the technical report for the details [to be added].
