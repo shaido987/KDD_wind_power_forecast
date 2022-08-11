@@ -170,7 +170,8 @@ if __name__ == '__main__':
 
     # Check if the data has been preprocessed or not.
     adj_matrix_path = os.path.join(model_dir, 'adj_matrix.csv')
-    if not os.path.isfile(adj_matrix_path):
+    data_file = os.path.join(model_dir, f"train_{args['ratio']}_new_mask.npz")
+    if not os.path.isfile(adj_matrix_path) or not os.path.isfile(data_file):
         input_data = os.path.join(args['data_path'], args['filename'])
         location_data = os.path.join(args['data_path'], args['location_file'])
         run_data_preprocess(input_data, model_dir, lag=args['seq_length_x'], horizon=args['seq_length_y'],
