@@ -1,6 +1,7 @@
 # KDD Cup 2022 Wind Power Forecast
 
 This is our solution to the KDD Cup 2022 spatial dynamic wind power forecast challenge, see the [competition webpage](https://aistudio.baidu.com/aistudio/competition/detail/152/0/introduction) for more information of the challenge itself.  
+
 Team name: didadida_hualahuala  
 Placement: 6th (of 2490 teams)  
 Final score (3rd phase): -45.18139
