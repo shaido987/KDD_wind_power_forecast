@@ -6,10 +6,7 @@ Team name: didadida_hualahuala
 Placement: 6th (of 2490 teams)  
 Final score (3rd phase): -45.18139
 
-The solution uses a combination of two models: MDLinear and XGTN, see the [technical report](https://baidukddcup2022.github.io/papers/Baidu_KDD_Cup_2022_Workshop_paper_5582.pdf) for the details. A quick summary can be found in our [presentation slides](https://baidukddcup2022.github.io/slides/didadida_hualahuala.pdf) and our [video presentation](https://www.youtube.com/watch?v=6fPL44g5h-c&ab_channel=Shaido987).
-
-
-The trained models used for the final score are included in this repository.
+The solution uses a combination of two models: MDLinear and XGTN, see the [technical report](https://baidukddcup2022.github.io/papers/Baidu_KDD_Cup_2022_Workshop_paper_5582.pdf) for the details. A quick summary can be found in our [presentation slides](https://baidukddcup2022.github.io/slides/didadida_hualahuala.pdf) and our [video presentation](https://www.youtube.com/watch?v=6fPL44g5h-c&ab_channel=Shaido987). The trained models used for the final score are included in this repository.
 
 ## Training
 The training data can be downloaded on the competition website: https://aistudio.baidu.com/aistudio/competition/detail/152/0/datasets.  
